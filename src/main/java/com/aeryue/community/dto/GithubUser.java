@@ -5,6 +5,15 @@ public class GithubUser {
     private Long id;
     private String dio;
 
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", dio='" + dio + '\'' +
+                '}';
+    }
+
     public void setName(String name) {
         this.name = name;
     }
